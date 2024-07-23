@@ -20,7 +20,7 @@ html, body{
     align-items: center;
     justify-content: flex-end;
     gap: 30px;
-    padding: 0 30px;
+    padding: 20px 30px;
 }
 #nav h4{
     font-size: 20px;
@@ -36,12 +36,12 @@ html, body{
 }
 #center { 
     width: 100%;
-    padding: 40px 50px;
+    padding: 15px 20px;
 }
-#center h1{
-    font-size: 80px;
+#center h1 {
+    font-size: 4vw;
     font-weight: 500;
-    line-height: 95px;
+    line-height: 4.4vw;
 }
 #center-in{
     height: 200px;
@@ -53,8 +53,9 @@ html, body{
 }
 #center-in p{
     font-size: 22px;
+    font-size: 1.17vw;
     font-weight: 600;
-    line-height: 32px;
+    line-height: 1.8vw;
 }
 #right{
     width: 20%;
@@ -92,4 +93,86 @@ html, body{
     background-image: url(https://raw.githubusercontent.com/AbhishekShrivastav73/Front-End-Domination-With-Sheryians-Coding-Schools-/main/CSS%20Projects/Project1/Img.avif);
     background-size: cover;
     background-position: 0 30%;
+}
+@media (max-width:600px) {
+    #nav {
+        height: 60px;
+        gap: 23px;
+        padding: 0 20px;
+}
+#nav h4{
+    font-size: 12px;
+    font-weight: 600;
+}
+#nav i{
+    background-color: black;
+    color: white;
+    font-size: 11px;
+    padding : 6px;
+    border-radius: 50%;
+    font-weight: 500;
+}
+#center { 
+    width: 100%;
+    padding: 15px 50px;
+}
+#center h1{
+    /* font-size: 78px; */
+    font-size: 10vw;
+    font-weight: 500;
+    line-height: 13vw;
+}
+#center-in{
+    /* background-color: red; */
+    width: 100%;
+    margin-top: 24px;
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#center-in p{
+    /* font-size: 22px; */
+    font-size: 3vw;
+    font-weight: 600;
+    line-height: 4.8vw;
+}
+#right{
+    width: 100%;
+}
+.elem{
+    /* background-color: yellow; */
+    margin: 5px;
+    padding: 10px 0;
+    border-top: 1.56px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.elem i{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 1;
+    color: #303030;
+}
+.elem a{
+    color: #3c3b3b;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+}
+.elem:hover i{
+    opacity: 1;
+}
+.elem:hover a{
+    text-decoration: underline ;
+}
+#bottom{
+  margin-top: 40px;
+    height: 33.5%;
+    width: 100%;
+    background-image: url(https://raw.githubusercontent.com/AbhishekShrivastav73/Front-End-Domination-With-Sheryians-Coding-Schools-/main/CSS%20Projects/Project1/Img.avif);
+    background-size: cover;
+    background-position: 0 30%;
+}
 }
